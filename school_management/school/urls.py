@@ -10,5 +10,5 @@ router.register(r"marks", MarkViewSet)
 
 urlpatterns = [
     path("", include(router.urls)),
-    path('token/',obtain_auth_token,name="login"),
+    #path('token/',obtain_auth_token,name="login"),
 ]
